@@ -82,7 +82,7 @@ def main():
 
   # set up animation
   fig = plt.figure()
-  ax = plt.axes(xlim=(0, 100), ylim=(0, 200))
+  ax = plt.axes(xlim=(0, 100), ylim=(0, 4400))
   a0, = ax.plot([], [])
   a1, = ax.plot([], [])
   anim = animation.FuncAnimation(fig, analogPlot.update, 
